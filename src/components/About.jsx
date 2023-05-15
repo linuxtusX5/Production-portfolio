@@ -1,6 +1,7 @@
 import React from "react";
 import aboutImg from "../assets/Untitled design.png";
 import { Button } from "react-bootstrap";
+import resume from '../assets/Salvatus CV.pdf';
 const About = () => {
   const info = [
     { text: "experience", count: "Fresher" },
@@ -35,7 +36,7 @@ const About = () => {
               </div>
               <br />
               <br />
-              <a href="./src/assets/Salvatus CV.pdf" download>
+              <a href={resume} download>
                 <Button className="btn-primary">Download CV</Button>
               </a>
             </div>
