@@ -4,7 +4,7 @@ import { Button } from "react-bootstrap";
 import resume from '../assets/Salvatus Resume.pdf';
 const About = () => {
   const info = [
-    { text: "experience", count: "Fresher" },
+    { text: "experience", count: "Entry level" },
     { text: "Completed Projects", count: "5" },
   ];
   return (
