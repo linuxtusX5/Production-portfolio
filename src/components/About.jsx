@@ -1,7 +1,7 @@
 import React from "react";
 import aboutImg from "../assets/Untitled design.png";
 import { Button } from "react-bootstrap";
-import resume from '../assets/Salvatus Resume.pdf';
+import resume from '../assets/Salvatus Resume (1).pdf';
 const About = () => {
   const info = [
     { text: "experience", count: "Entry level" },
