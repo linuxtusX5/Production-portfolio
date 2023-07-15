@@ -115,7 +115,7 @@ const Project = () => {
               </div>
             </div>
             <div className="h-fit w-full p-4 bg-slate-700 rounded-xl mb-5">
-              <img src={project5} alt="" className="rounded-lg" style={{height: '50vh''}} />
+              <img src={project5} alt="" className="rounded-lg" style={{height: '50vh'}} />
               <h3 className="text-xl my-4">Task Management </h3>
               <div className="flex gap-3">
                 <a
